@@ -1,8 +1,8 @@
 <table width="100%">
 <tr>
-<td width="180" valign="middle" align="center">
+<td width="200" valign="middle" align="center">
 
-<img src="https://raw.githubusercontent.com/ARKlight-Ecosystem/ARKlight/alpha/ARKlight-logo.png" alt="ARKlight" width="160" height="160">
+<img src="https://raw.githubusercontent.com/ARKlight-Ecosystem/ARKlight/alpha/ARKlight-logo.png" alt="ARKlight" width="180" height="180">
 
 </td>
 <td valign="middle">
