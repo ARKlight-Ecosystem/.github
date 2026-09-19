@@ -1,12 +1,21 @@
+<table width="100%">
+<tr>
+<td width="200" valign="middle" align="center">
+
+<img src="https://raw.githubusercontent.com/ARKlight-Ecosystem/ARKlight/alpha/ARKlight-logo.png" alt="ARKlight" width="180" height="180">
+
+</td>
+<td valign="middle">
 <div align="center">
 
 # ARKlight Ecosystem
 
-**Write Python. Ship plain HTML.**
-
-A Python-first compiler for static websites, and the tools that grow around it.
+**Write Python. Ship plain dependency free Website. A ecosystem where developers work with a structured component API, while the output remains ordinary, dependency-free `Hyper Text Markup Language` `Casscading Style Sheets` `JavaScript`. and the tools that grow around it.**
 
 </div>
+</td>
+</tr>
+</table>
 
 ---
 
