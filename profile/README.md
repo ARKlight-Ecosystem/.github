@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/ARKlight-Ecosystem/ARKlight/alpha/ARKlight-logo.png" alt="ARKlight" width="120" height="120">
+
 # ARKlight Ecosystem
 
 **Write Python. Ship plain HTML.**
