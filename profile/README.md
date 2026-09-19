@@ -6,13 +6,18 @@
 
 </td>
 <td valign="middle">
+<div align="center">
 
 # ARKlight Ecosystem
 
 **Write Python. Ship plain HTML.**
 
-A Python-first compiler for static websites, and the tools that grow around it.
+# ARKlight Framework
 
+**A Python-first compiler for building static websites where developers work
+with a structured component API, while the output remains ordinary, dependency-free `Hyper Text Markup Language` `Casscading Style Sheets` `JavaScript`. and the tools that grow around it.**
+
+</div>
 </td>
 </tr>
 </table>
