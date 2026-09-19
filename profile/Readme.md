@@ -43,7 +43,7 @@ arklight pack ARK -o site.ark   # one portable .ark bundle
 | [**ARKlight Viewer for Android**](https://github.com/ARKlight-Ecosystem/ARKlight-Viewer-for-Android-Devices) | Tap a `.ark` bundle and browse the whole multi-page site offline, with no server. Sealed and passphrase-protected bundles supported. Android 7.0+. | Apache-2.0 |
 | [**ARKlight Component Collections**](https://github.com/ARKlight-Ecosystem/ARKlight-Component-Collections) | ACC: the planned package and distribution system for ARKlight components, actions, styles, and other extensions. Early design stage. | Apache-2.0 |
 | [**ARKlight Ecosystem**](https://github.com/ARKlight-Ecosystem/) | 
-This repos purpose is centralised Documentation and getting Poll requests if a user has any feature requests of suggestions that respects ARKlight's philosophy `Compiler First - Runtime Last` It's recommended to drop a docs here |
+This repos purpose is centralised Documentation and getting Poll requests if a user has any feature requests of suggestions that respects ARKlight's philosophy `Compiler First - Runtime Last` It's recommended to drop a docs here | No License needed for docs |
 
 ## How the pieces fit
 
