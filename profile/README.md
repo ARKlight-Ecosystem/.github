@@ -10,10 +10,7 @@
 
 # ARKlight Ecosystem
 
-**Write Python. Ship plain dependency free Websi9.**
-
-**A Python-first compiler for building static websites where developers work
-with a structured component API, while the output remains ordinary, dependency-free `Hyper Text Markup Language` `Casscading Style Sheets` `JavaScript`. and the tools that grow around it.**
+**Write Python. Ship plain dependency free Website. A ecosystem where developers work with a structured component API, while the output remains ordinary, dependency-free `Hyper Text Markup Language` `Casscading Style Sheets` `JavaScript`. and the tools that grow around it.**
 
 </div>
 </td>
