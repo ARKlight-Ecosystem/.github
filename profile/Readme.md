@@ -67,9 +67,11 @@ ACC: extension packages that plug into ARKlight
 - **Fast frontier, slow core.** ARKlight in Python moves quickly and defines what's next. The
   C core deliberately trails it, picking up only what has shipped and stayed stable.
 
-## Status
+## Status 
 
-Early and moving fast. ARKlight is at `0.54.0` (alpha), with new work developed on the
+`As of when this Readme was done`
+
+Early and moving fast. ARKlight is at `0.54.0` (main) and ARKlight (Alpha) is at `0.0651`, with new work developed on the
 `alpha` branch. C_ARKlight tracks an earlier, frozen ARKlight release by design. The Android
 viewer builds APKs in CI, and ACC is still on the drawing board.
 
