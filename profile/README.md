@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ARKlight-Ecosystem/ARKlight/alpha/ARKlight-logo.png" alt="ARKlight" width="120" height="120">
+<img src="https://raw.githubusercontent.com/ARKlight-Ecosystem/ARKlight/alpha/ARKlight-logo.png" alt="ARKlight" width="300" height="300">
 
 # ARKlight Ecosystem
 
