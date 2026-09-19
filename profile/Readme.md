@@ -41,7 +41,7 @@ arklight pack ARK -o site.ark      # one portable .ark bundle
 | [**ARKlight**](https://github.com/ARKlight-Ecosystem/ARKlight) | The Python compiler and CLI: source → AST → validated, backend-independent IR → HTML / CSS / JS backends. Where sites are authored and where the language evolves. | GPL-3.0-or-later |
 | [**C_ARKlight**](https://github.com/ARKlight-Ecosystem/C_ARKlight) | The compiler core in C (`libcarklight`): a small, dependency-free library behind a stable ABI that builds sites from the `.arklight` encoding of the IR. Work in progress. | GPL-3.0-or-later |
 | [**ARKlight Viewer for Android**](https://github.com/ARKlight-Ecosystem/ARKlight-Viewer-for-Android-Devices) | Tap a `.ark` bundle and browse the whole multi-page site offline, with no server. Sealed and passphrase-protected bundles supported. Android 7.0+. | Apache-2.0 |
-| [**ARKlight Component Collections**](https://github.com/ARKlight-Ecosystem/ARKlight-Component-Collections) | ACC: the planned package and distribution system for ARKlight components, actions, styles, and other extensions. Early design stage. | Not yet specified |
+| [**ARKlight Component Collections**](https://github.com/ARKlight-Ecosystem/ARKlight-Component-Collections) | ACC: the planned package and distribution system for ARKlight components, actions, styles, and other extensions. Early design stage. | Apache-2.0 |
 
 ## How the pieces fit
 
