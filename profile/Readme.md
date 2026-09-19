@@ -16,7 +16,7 @@ ARKlight lets you describe a website in Python and compiles it to standard, depe
 HTML, CSS, and JavaScript. **The browser never executes Python.**
 
 ```python
-from arklight import *
+# include <stdlib.ARKlight>
 
 site = Site()
 
@@ -30,8 +30,8 @@ def home():
 ```
 
 ```bash
-arklight build site.py -o ARK      # writes ARK/index.html
-arklight pack ARK -o site.ark      # one portable .ark bundle
+arklight build site.py.         # writes ARK/index.html
+arklight pack ARK -o site.ark   # one portable .ark bundle
 ```
 
 ## Repositories
@@ -42,6 +42,8 @@ arklight pack ARK -o site.ark      # one portable .ark bundle
 | [**C_ARKlight**](https://github.com/ARKlight-Ecosystem/C_ARKlight) | The compiler core in C (`libcarklight`): a small, dependency-free library behind a stable ABI that builds sites from the `.arklight` encoding of the IR. Work in progress. | GPL-3.0-or-later |
 | [**ARKlight Viewer for Android**](https://github.com/ARKlight-Ecosystem/ARKlight-Viewer-for-Android-Devices) | Tap a `.ark` bundle and browse the whole multi-page site offline, with no server. Sealed and passphrase-protected bundles supported. Android 7.0+. | Apache-2.0 |
 | [**ARKlight Component Collections**](https://github.com/ARKlight-Ecosystem/ARKlight-Component-Collections) | ACC: the planned package and distribution system for ARKlight components, actions, styles, and other extensions. Early design stage. | Apache-2.0 |
+| [**ARKlight Ecosystem**](https://github.com/ARKlight-Ecosystem/) | 
+This repos purpose is centralised Documentation and getting Poll requests if a user has any feature requests of suggestions that respects ARKlight's philosophy `Compiler First - Runtime Last` It's recommended to drop a docs here |
 
 ## How the pieces fit
 
@@ -69,7 +71,9 @@ ACC: extension packages that plug into ARKlight
 
 ## Status 
 
-`As of when this Readme was done`
+```text 
+As of when this Readme was done
+```
 
 Early and moving fast. ARKlight is at `0.54.0` (main) and ARKlight (Alpha) is at `0.0651`, with new work developed on the
 `alpha` branch. C_ARKlight tracks an earlier, frozen ARKlight release by design. The Android
@@ -80,8 +84,9 @@ viewer builds APKs in CI, and ACC is still on the drawing board.
 ```bash
 git clone https://github.com/ARKlight-Ecosystem/ARKlight.git
 cd ARKlight
-pip install -e .                                  # Python 3.10+
-arklight build examples/hello_site/site.py -o ARK
+pip install -e .                              # Python 3.10+
+arklight build examples/hello_site/site.py
 ```
 
 More in the [ARKlight README](https://github.com/ARKlight-Ecosystem/ARKlight#readme).
+More in the [ARKlight Ecosystem](https://github.com/ARKlight-Ecosystem/Docs) 
