@@ -1,6 +1,11 @@
-<div align="center">
+<table width="100%">
+<tr>
+<td width="180" valign="middle" align="center">
 
-<img src="https://raw.githubusercontent.com/ARKlight-Ecosystem/ARKlight/alpha/ARKlight-logo.png" alt="ARKlight" width="300" height="300">
+<img src="https://raw.githubusercontent.com/ARKlight-Ecosystem/ARKlight/alpha/ARKlight-logo.png" alt="ARKlight" width="160" height="160">
+
+</td>
+<td valign="middle">
 
 # ARKlight Ecosystem
 
@@ -8,7 +13,9 @@
 
 A Python-first compiler for static websites, and the tools that grow around it.
 
-</div>
+</td>
+</tr>
+</table>
 
 ---
 
