@@ -4,8 +4,9 @@ The central documentation index for the ARKlight ecosystem. It **links** to the 
 does not move or copy them. Every document stays in the repository that owns it, and this
 page is the one place that maps them all.
 
-> **Verified against:** ARKlight `alpha` @ `28c3438` (2026-09-19) and `main` @ `76bd5eb`;
-> C_ARKlight @ `a87a9ba`; ARKlight Component Collections @ `c8dcbb4`; ARKlight Viewer @ `5acab6f`.
+> **Verified against:** ARKlight `alpha` @ `10fa1b2` (2026-09-24) and `main` @ `4e684183`
+> (2026-09-24); C_ARKlight @ `a87a9ba`; ARKlight Component Collections @ `c8dcbb4`;
+> ARKlight Viewer @ `5acab6f`.
 > ARKlight links point at the **`alpha`** branch, where the docs and the language are
 > developed. `main` catches up in releases and is older.
 
@@ -66,9 +67,10 @@ folder to the next as a decision is made:
 | Shipped, user-facing summary | [`version history/`](https://github.com/ARKlight-Ecosystem/ARKlight/tree/alpha/docs/version%20history) | Never. One file per shipped version. |
 | Shipped, permanent design rationale | [`Foundational/`](https://github.com/ARKlight-Ecosystem/ARKlight/tree/alpha/docs/Foundational) | Never. Updated in place. |
 
-Also present: [`new js backend proposal/`](https://github.com/ARKlight-Ecosystem/ARKlight/tree/alpha/docs/new%20js%20backend%20proposal),
-two competing designs for a redesigned JS backend (virtual DOM vs. none), kept until a
-direction is chosen.
+The `new js backend proposal/` folder that used to sit alongside these is gone: the
+vdom-vs-none decision was made (vdom, vendoring a bare `snabbdom` core), shipped as
+`v0.054`, and its rationale now lives permanently in
+[`Foundational/DESIGN-NOTES.md`](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/Foundational/DESIGN-NOTES.md).
 
 ### Foundational (permanent)
 
@@ -102,12 +104,12 @@ file list that would go stale.
 
 | Folder | What's in it | Index |
 |---|---|---|
-| Backends | Staging plans for the Android and desktop packaging backends; the Neutralino plan is superseded and kept for reference | [README](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/Backends/README.md) |
-| Proposals | Design proposals awaiting a decision, or accepted and staged: JS vocabulary, URL state, providers, the `arklight assistant` CLI, project knowledge, runtime error handling, the Platform API IR, and the alpha issue register | [README](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/Proposals/README.md) |
+| Backends | Staging plans for the Android and desktop packaging backends. The old Neutralino.js plan has been removed outright (not just superseded) in favor of a purpose-built native desktop host/packager | [README](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/Backends/README.md) |
+| Proposals | Design proposals awaiting a decision, or accepted and staged: JS vocabulary, URL state, providers, the `arklight assistant` CLI, project knowledge, runtime error handling, the Platform API IR, the Rei language, the AVM/WASM sandbox, KaiOS as a native target, and the alpha issue register, among others | [README](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/Proposals/README.md) |
 | Implementation | Rung-by-rung landing orders for accepted proposals | [README](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/Implementation/README.md) |
 | version history | The user-facing overview of each shipped `alpha` milestone | [README](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/version%20history/README.md) |
-| new js backend proposal | Competing JS backend designs | [README](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/new%20js%20backend%20proposal/README.md) |
-| Far Future Concern | Speculative backlog: KaiOS and Windows Phone backends | [README](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/Far%20Future%20Concern/README.md) |
+| Far Future Concern | Speculative backlog: KaiOS, Windows Phone, and a not-yet-accepted, post-`v1.0` PocketBase-shaped data-service proposal | [README](https://github.com/ARKlight-Ecosystem/ARKlight/blob/alpha/docs/Far%20Future%20Concern/README.md) |
+| reference | Vendored/reference material read for design purposes but not imported by any shipping code, e.g. a study copy of ELIZA behind the Rei compiler-narrator proposal | *(no folder README yet)* |
 
 ---
 
